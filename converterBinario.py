@@ -36,7 +36,7 @@ def codificar():
 print(
     '''
     ========================
-    Digite a funçaõ desejada:
+    Digite a funcão desejada:
     1) Codificar
     2) Decodificar
     3) Sair
@@ -49,7 +49,7 @@ while escolha != 3:
         print(
         '''
         ========================
-        Digite a funçaõ desejada:
+        Digite a funcão desejada:
         1) Codificar
         2) Decodificar
         3) Sair
@@ -60,7 +60,7 @@ while escolha != 3:
         print(
         '''
         ========================
-        Digite a funçaõ desejada:
+        Digite a funcão desejada:
         1) Codificar
         2) Decodificar
         3) Sair
@@ -71,7 +71,7 @@ while escolha != 3:
         print(
         '''
         ========================
-        Digite a funçaõ desejada:
+        Digite a funcão desejada:
         1) Codificar
         2) Decodificar
         3) Sair
