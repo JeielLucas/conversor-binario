@@ -1,3 +1,5 @@
+import os
+
 def decodificar():
     numero_decodificar = str(input('Digite um número para decodificar: '))
     lista = []
@@ -12,7 +14,7 @@ def decodificar():
         valor_decimal_item = int(i) * (2**expoente)
         soma += valor_decimal_item
         expoente +=1
-    print(soma)
+    print(f"O número convertido é: {soma}")
 
 
 def codificar():
@@ -30,6 +32,7 @@ def codificar():
         if numero_codificar == 1:
             lista.insert(contador, numero_codificar)
     lista.reverse()
+    print("O valor codificado em binario é: ")
     print(*lista, sep='')
 
 
@@ -45,6 +48,7 @@ escolha = int(input())
 
 while escolha != 3:
     if escolha == 1:
+        os.system("cls")
         codificar()
         print(
         '''
@@ -56,6 +60,7 @@ while escolha != 3:
         ========================''')
         escolha = int(input())
     elif escolha == 2:
+        os.system("cls")
         decodificar()
         print(
         '''
